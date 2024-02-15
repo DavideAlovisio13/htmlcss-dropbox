@@ -94,7 +94,10 @@ nav img {
     font-size: 4em;
 }
 
+#hero-sub-l
+
 /* body section */
 #agency {
   width: 100%;
+  min-width: 300px
 }
