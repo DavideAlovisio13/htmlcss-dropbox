@@ -92,7 +92,8 @@ li.dropdown {
   position: absolute;
   top: 70px;
   left: 0px;
-  padding-left: 148px;
+  padding-left: 160px;
+  padding-bottom: 15px;
   background-color: var(--color-background);
   min-width: 160px;
   width: 100%;
@@ -110,9 +111,14 @@ li.dropdown {
   display: block;
   text-align: left;
 }
-.dropdown-content a:hover {
-  background-color: #f1f1f1;
-  border-radius: 10px;
+
+.dropdown-content i {
+    padding-left: 140px;
+    padding-right: 15px;
+}
+
+nav a:hover {
+    color: var(--color-button);
 }
 .dropdown:hover .dropdown-content {
   display: block;
@@ -125,6 +131,8 @@ nav li {
 nav img {
   padding: 10px 10px 25px;
 }
+
+
 
 #btn-nav-w {
   background-color: var(--color-background);
