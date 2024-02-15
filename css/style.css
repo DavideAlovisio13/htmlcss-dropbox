@@ -30,10 +30,11 @@
   margin: 0 auto;
 }
 
-.padding {
-  padding: 30px;
+.small-container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 80px 10px;
 }
-
 .a-black {
   color: var(--color-background-footer);
 }
@@ -87,6 +88,12 @@ nav img {
     margin: 10px 13px 10px 3px;
     line-height: 0;
 }
+
+#hero h1 {
+    word-wrap: break-word;
+    font-size: 4em;
+}
+
 /* body section */
 #agency {
   width: 100%;
