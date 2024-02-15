@@ -28,12 +28,12 @@
 .container {
   max-width: 1200px;
   margin: 0 auto;
+  padding: 10px;
 }
 
 .small-container {
-    max-width: 1000px;
-    margin: auto;
-    padding: 80px 10px;
+  max-width: 1000px;
+  margin: auto; 
 }
 .a-black {
   color: var(--color-background-footer);
@@ -67,7 +67,9 @@ nav {
   height: 70px;
   padding: 10px;
   position: fixed;
+  top: 0;
   z-index: 1000;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, .4);
 }
 
 nav li {
@@ -75,29 +77,58 @@ nav li {
 }
 
 nav img {
-  padding: 13px;
+  padding: 10px 10px 13px;
 }
 
 #btn-nav-w {
-    background-color: var(--color-background);
-    margin: 10px 13px;
-    line-height: 0;
+  background-color: var(--color-background);
+  margin: 10px 13px;
+  line-height: 0;
 }
 #btn-nav-b {
-    background-color: var(--color-button);
-    margin: 10px 13px 10px 3px;
-    line-height: 0;
+  background-color: var(--color-button);
+  margin: 10px 13px 10px 3px;
+  line-height: 0;
+}
+
+#hero {
+    padding: 20px 0px;
+    position: relative;
+    top: 100px;
 }
 
 #hero h1 {
-    word-wrap: break-word;
-    font-size: 4em;
+  word-wrap: break-word;
+  font-size: 4em;
+  padding: 20px 10px;
 }
 
-#hero-sub-l
+#hero-sub-l {
+  width: 30%;
+}
 
+#hero-sub-r {
+  width: 70%;
+}
+
+#hero-sub-l a {
+    padding: 20px 0px;
+}
+
+#hero-sub-l i {
+    font-size: 3em;
+    position: absolute;
+    left: 0px;
+    bottom: 140px
+}
+
+
+#hero-sub-r img {
+    width: 100%;
+    min-width: 300px;
+}
 /* body section */
 #agency {
   width: 100%;
-  min-width: 300px
+  min-width: 300px;
 }
