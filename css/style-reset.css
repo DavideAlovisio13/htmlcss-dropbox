@@ -9,14 +9,11 @@ ul {
 }
 
 a {
-    list-style: none;
+    text-decoration: none;
 }
 
 html {
     scroll-behavior: smooth;
 }
 
-body {
-    font-family: "Open Sans", sans-serif;
-}
 
