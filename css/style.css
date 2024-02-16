@@ -33,6 +33,7 @@
 
 .small-container {
   max-width: 1000px;
+  margin: auto;
 }
 .a-black {
   color: var(--color-background-footer);
@@ -120,7 +121,7 @@ nav img {
 }
 
 #hero h1 {
-  font-weight: 1000;
+  font-weight: 900;
   font-size: 4em;
   padding: 20px 10px;
 }
@@ -151,6 +152,13 @@ nav img {
 
 main {
   padding-top: 70px;
+}
+
+/* plan section */
+
+#plan h2 {
+  font-weight: 900;
+  font-size: 2em;
 }
 
 .contradio {
@@ -200,8 +208,9 @@ main {
 }
 
 .contradio .checkmark:after {
-  top: 3.5px;
-  left: 3.75px;
+  top: 50%;
+  left: 50%; 
+  transform: translate(-50%, -50%);
   width: 13px;
   height: 13px;
   border-radius: 50%;
@@ -212,10 +221,17 @@ main {
   padding-top: 60px;
   width: 40%;
 }
+
+#plan-card-cont {
+  width: 100%;
+  padding: 60px 0px;
+}
 .plan-cards {
-  width: calc(100% / 3 );
-  padding: 10px;
-  padding-right: 5px;
+  width: calc(100% / 3 - 40px);
+}
+
+.plan-cards i {
+  padding-right: 10px;
 }
 
 .plan-mod p {
@@ -224,14 +240,26 @@ main {
   text-align: center;
 }
 
-.plan-mod i {
-  padding-right: 5px;
-}
-
 .plan-main {
+  height: 808.52px;
   border-right: 1px solid var(--color-background-footer);
   border-left: 1px solid var(--color-background-footer);
   border-bottom: 1px solid var(--color-background-footer);
-  padding: 20px;
+  padding: 30px;
+  line-height: 1.5;
+  font-size: 0.8em;
+}
+
+.plan-main h3 {
+  font-size: 1.5em;
+  padding-bottom: 15px;
+}
+
+.plan-main ul {
+  padding: 40px 0px;
+}
+
+.plan-main li {
+  padding: 10px 0px;
 }
 
