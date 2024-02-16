@@ -14,6 +14,7 @@
   --color-bg-herst: #b4d0e7;
   --color-bg-clearchannel: #ffd830;
   --color-text-buisness: #61082b;
+  --color-links: #0c26ef;
 }
 
 .debug {
@@ -156,6 +157,10 @@ main {
 
 /* plan section */
 
+#plan i{
+  padding-right: 10px;
+}
+
 #plan h2 {
   font-weight: 900;
   font-size: 2em;
@@ -224,14 +229,10 @@ main {
 
 #plan-card-cont {
   width: 100%;
-  padding: 60px 0px;
+  margin: 60px 0px;
 }
 .plan-cards {
   width: calc(100% / 3 - 40px);
-}
-
-.plan-cards i {
-  padding-right: 10px;
 }
 
 .plan-mod p {
@@ -241,11 +242,10 @@ main {
 }
 
 .plan-main {
-  height: 808.52px;
   border-right: 1px solid var(--color-background-footer);
   border-left: 1px solid var(--color-background-footer);
   border-bottom: 1px solid var(--color-background-footer);
-  padding: 30px;
+  padding: 40px;
   line-height: 1.5;
   font-size: 0.8em;
 }
@@ -261,5 +261,54 @@ main {
 
 .plan-main li {
   padding: 10px 0px;
+}
+
+.plan-grey {
+  color: grey;
+}
+
+.btn-blu {
+  text-align: center;
+  display: block;
+  padding: 10px 0px;
+  background-color: var(--color-button);
+  color: var(--color-background);
+}
+
+.btn-blu:hover {
+  opacity: 0.8;
+}
+
+.a-underline {
+  text-decoration: underline;
+  color: var(--color-links);
+}
+
+.a-underline:hover {
+  color: #551A8B;
+}
+
+.a-hunderlin:visited {
+  color: #551A8B;
+}
+
+#break-p {
+  display: inline-block;
+  padding: 40px 0px 30px;
+  border-bottom: 1px solid var(--color-background-footer);
+}
+#plan-side {
+  border-right: 1px solid var(--color-background-footer);
+    border-left: 1px solid var(--color-background-footer);
+    border-bottom: 1px solid var(--color-background-footer);
+    padding: 30px;
+    line-height: 1.5;
+    font-size: 0.8em;
+}
+
+#plan-cont-side {
+  padding: 10px;
+  border: 1px solid var(--color-background-footer);
+  text-align: center;
 }
 
