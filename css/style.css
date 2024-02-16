@@ -58,6 +58,11 @@ body {
   min-width: 1200px;
 }
 
+h3 {
+  font-size: 1.5em;
+  padding-bottom: 15px;
+}
+
 #agency {
   width: 100%;
   min-width: 300px;
@@ -157,7 +162,7 @@ main {
 
 /* plan section */
 
-#plan i{
+#plan i {
   padding-right: 10px;
 }
 
@@ -214,7 +219,7 @@ main {
 
 .contradio .checkmark:after {
   top: 50%;
-  left: 50%; 
+  left: 50%;
   transform: translate(-50%, -50%);
   width: 13px;
   height: 13px;
@@ -250,11 +255,6 @@ main {
   font-size: 0.8em;
 }
 
-.plan-main h3 {
-  font-size: 1.5em;
-  padding-bottom: 15px;
-}
-
 .plan-main ul {
   padding: 40px 0px;
 }
@@ -285,11 +285,11 @@ main {
 }
 
 .a-underline:hover {
-  color: #551A8B;
+  color: #551a8b;
 }
 
 .a-hunderlin:visited {
-  color: #551A8B;
+  color: #551a8b;
 }
 
 #break-p {
@@ -299,11 +299,11 @@ main {
 }
 #plan-side {
   border-right: 1px solid var(--color-background-footer);
-    border-left: 1px solid var(--color-background-footer);
-    border-bottom: 1px solid var(--color-background-footer);
-    padding: 30px;
-    line-height: 1.5;
-    font-size: 0.8em;
+  border-left: 1px solid var(--color-background-footer);
+  border-bottom: 1px solid var(--color-background-footer);
+  padding: 30px;
+  line-height: 1.5;
+  font-size: 0.8em;
 }
 
 #plan-cont-side {
@@ -312,3 +312,17 @@ main {
   text-align: center;
 }
 
+/* partner section */
+
+.left {
+width: 50%;
+}
+
+.left img {
+width: 100%;
+}
+
+.right {
+width: 50%;
+padding: 40px;
+}
