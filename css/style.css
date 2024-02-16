@@ -215,6 +215,7 @@ main {
 .plan-cards {
   width: calc(100% / 3 );
   padding: 10px;
+  padding-right: 5px;
 }
 
 .plan-mod p {
