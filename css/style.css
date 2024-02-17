@@ -341,7 +341,6 @@ main {
 .white-btn {
   padding: 10px;
   border: 1px solid var(--color-background-footer);
-  width: fit-content;
   text-align: center;
 }
 
@@ -352,9 +351,15 @@ main {
 /*  business section*/
 
 .business-card {
-  width: calc(100% / 3 - 10px);
+  width: calc(100% / 3 );
   min-width: 200px;
   position: relative;
+  padding: 10px;
+}
+
+.business-card p {
+  font-size: 0.8em;
+  padding-top: 30px;
 }
 
 .business-card img {
