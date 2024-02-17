@@ -56,6 +56,7 @@ body {
   height: 100vh;
   background-color: var(--color-background);
   min-width: 1200px;
+  line-height: 1.5;
 }
 
 h3 {
@@ -303,7 +304,6 @@ main {
   border-left: 1px solid gainsboro;
   border-bottom: 1px solid gainsboro;
   padding: 30px;
-  line-height: 1.5;
   font-size: 0.8em;
 }
 
@@ -367,4 +367,19 @@ main {
   height: 100%;
   display: block;
   object-fit: cover;
+}
+
+/* team section */
+
+#team {
+  text-align: left;
+  padding-right: 800px;
+}
+
+#team h2 {
+  padding-bottom: 40px;
+}
+
+#team a {
+  font-size: 0.8em;
 }
