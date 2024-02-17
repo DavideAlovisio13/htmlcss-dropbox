@@ -33,6 +33,7 @@
 }
 
 .small-container {
+  position: relative;
   max-width: 1000px;
   margin: auto;
 }
@@ -267,7 +268,7 @@ main {
 .btn-blu {
   text-align: center;
   display: block;
-  padding: 10px 0px;
+  padding: 10px 10px;
   background-color: var(--color-button);
   color: var(--color-background);
 }
@@ -307,6 +308,10 @@ main {
   padding-bottom: 40px;
 }
 
+.padding-r {
+  padding-right: 10px;
+}
+
 #plan-cont-side {
   padding: 10px;
   border: 1px solid gainsboro;
@@ -317,10 +322,12 @@ main {
 
 .left {
   width: 60%;
+  padding: 20px 0px;
 }
 
 .left img {
   width: 100%;
+  padding: 0px 20px;
 }
 
 .right {
@@ -392,12 +399,14 @@ main {
 }
 
 .label-agency {
-  width: 50%;
-  height: 50%;
+  width: 30vw;
   aspect-ratio: 1 / 1;
+  min-width: 50%;
+  max-width: 50%;
 }
 
 .label-agency img {
+  display: block;
   width: 100%;
   height: 100%;
   padding: 50px;
@@ -449,3 +458,107 @@ main {
 #agency-cont-center p {
   padding: 30px 0px;
 }
+
+/* bring section */
+
+#bring{
+  width: 100%;
+  background-color: var(--color-background-image);
+}
+
+#bring h2 {
+  color: var(--color-text-buisness);
+}
+
+.btn-white {
+  position: absolute;
+  right: 51px;
+  top: 50px;
+  padding: 10px 30px; 
+  background-color: var(--color-background);
+}
+
+.btn-white:hover {
+  opacity: 0.8;
+}
+.left h2 {
+  padding: 50px 100px 50px 0px;
+}
+
+/* faq section */
+
+.faq-container{
+  width: 100%;
+  padding: 0px 10px;
+}
+.accordion-item {
+  background-color: var(--color-background);
+  padding: 1rem;
+  border-top: 1px solid var(--color-background-footer);
+}
+
+#question3{
+  border-bottom: 1px solid var(--color-background-footer);
+}
+.accordion-link{
+  font-size: 0.8em;
+  color: var(--color-background-footer);
+  background-color: var(--color-background);
+  width: 100%;
+  padding: 1rem 0;
+}
+
+.accordion-link i{
+  color: var(--color-background-footer);
+  padding: 0.5rem;
+}
+
+.accordion-link .fa-angle-up{
+  display: none;
+}
+
+.answer{
+  max-height: 0;
+  overflow: hidden;
+  position: relative;
+  background-color: var(--color-background);
+  transition: max-height 650ms;
+}
+
+.answer::before{
+  content: "";
+  position: absolute;
+  width: 0.6rem;
+  height: 90%;
+  background-color: gainsboro;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.answer p {
+  color: var(--color-background-footer);
+  opacity: 0.6;
+  font-size: 0.8em;
+  padding: 2rem;
+}
+
+.accordion-item:target .answer{
+  max-height: 20rem;
+}
+
+.accordion-item:target .accordion-link .fa-angle-down{
+  display: none;
+}
+
+.accordion-item:target .accordion-link .fa-angle-up{
+  display: block;
+}
+
+
+
+
+
+
+
+
