@@ -72,6 +72,10 @@ header {
   background-color: var(--color-background-image);
   width: 100%;
 }
+
+header p, header a {
+  font-size: 0.8em;
+}
 nav {
   background-color: var(--color-background);
   width: 100%;
@@ -134,6 +138,7 @@ nav img {
 
 #hero-sub-l {
   width: 40%;
+  padding-right: 70px;
 }
 
 #hero-sub-r {
@@ -141,7 +146,19 @@ nav img {
 }
 
 #hero-sub-l a {
-  padding: 20px;
+  display: block;
+  text-align: left;
+}
+
+#hero-sub-l .a-black {
+  padding-top: 40px;
+}
+
+#nav-btn-blu {
+  display: block;
+  width: fit-content;
+  padding: 10px;
+  background-color: var(--color-button);
 }
 
 #hero-sub-l i {
@@ -150,6 +167,10 @@ nav img {
   left: 0px;
   bottom: 135px;
   color: var(--color-background-footer);
+}
+
+#hero-sub-l p {
+  padding-bottom: 40px;
 }
 
 #hero-sub-r img {
@@ -423,34 +444,74 @@ main {
 }
 #green {
   background-color: var(--color-bg-designit);
+  transition: 1s;
+}
+
+#green:hover {
+  border: 10px ridge var(--color-bg-designit);
 }
 
 #light-blue {
   background-color: var(--color-bg-uniflorida);
+  transition: 1s;
+}
+
+#light-blue:hover {
+  border: 10px ridge var(--color-bg-uniflorida);
 }
 
 #wine {
   background-color: var(--color-bg-asu);
+  transition: 1s;
+}
+
+#wine:hover {
+  border: 10px ridge var(--color-bg-asu);
 }
 
 #light-red {
   background-color: var(--color-bg-topps);
+  transition: 1s;
+}
+
+#light-red:hover {
+  border: 10px ridge var(--color-bg-topps);
 }
 
 #red {
   background-color: var(--color-bg-bicycle);
+  transition: 1s;
+}
+
+#red:hover {
+  border: 10px ridge var(--color-bg-bicycle);
 }
 
 #sky {
   background-color: var(--color-bg-herst);
+  transition: 1s;
+}
+
+#sky:hover {
+  border: 10px ridge var(--color-bg-herst);
 }
 
 #blue {
   background-color: var(--color-bg-lonelyplanet);
+  transition: 1s;
+}
+
+#blue:hover {
+  border: 10px ridge var(--color-bg-lonelyplanet);
 }
 
 #yellow {
   background-color: var(--color-bg-clearchannel);
+  transition: 1s;
+}
+
+#yellow:hover {
+  border: 10px ridge var(--color-bg-clearchannel);
 }
 
 #agency-cont-center {
