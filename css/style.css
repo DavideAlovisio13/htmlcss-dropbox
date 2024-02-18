@@ -161,6 +161,10 @@ main {
   padding-top: 70px;
 }
 
+#plan, #partner, #business, #team, #agency, #bring, #faq, .ft-top {
+  padding-top: 100px;
+}
+
 /* plan section */
 
 #plan i {
@@ -220,10 +224,10 @@ main {
 
 .contradio .checkmark:after {
   top: 50%;
-  left: 50%;
+  left: 7.5px;
   transform: translate(-50%, -50%);
-  width: 10px;
-  height: 10px;
+  width: 11px;
+  height: 11px;
   border-radius: 50%;
   background: var(--color-background);
 }
@@ -473,6 +477,9 @@ main {
 #bring h2 {
   color: var(--color-text-buisness);
 }
+#bring .small-container{
+  height: 100%;
+}
 
 .btn-white {
   position: absolute;
@@ -480,6 +487,19 @@ main {
   top: 62px;
   padding: 10px 30px; 
   background-color: var(--color-background);
+}
+
+#white-btn-b {
+  text-align: center;
+  display: block;
+  width: 40%;
+  padding: 10px ;
+  border: 1px solid var(--color-background-footer);
+  color: var(--color-background-footer);
+}
+
+#white-btn-b:hover {
+  opacity: 0.8;
 }
 
 .btn-white:hover {
@@ -490,6 +510,10 @@ main {
 }
 
 /* faq section */
+
+#faq {
+  padding-bottom: 100px;
+}
 
 #faq h2 {
   padding: 100px 0px 40px;
@@ -570,6 +594,11 @@ footer {
   background-color: var(--color-background-footer);
   color: var(--color-background);
 
+}
+
+footer strong {
+  display: block;
+  padding-left: 10px;
 }
 
 footer ul{
