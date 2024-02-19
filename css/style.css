@@ -23,7 +23,6 @@
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 10px;
 }
 
 .small-container {
@@ -46,8 +45,7 @@
 #team,
 #agency,
 #bring,
-#faq,
-.ft-top {
+#faq {
   padding-top: 100px;
 }
 
@@ -58,7 +56,7 @@ h2 {
 
 #plan h2 {
   padding-bottom: 15px;
-  padding-left: 12px;
+  padding-left: 0px;
 }
 
 #team h2 {
@@ -71,7 +69,7 @@ h2 {
 }
 
 #bring .left h2 {
-  padding: 0px 100px 100px 10px;
+  padding: 0px 100px 100px 0px;
   color: var(--color-text-buisness);
 }
 
@@ -575,7 +573,7 @@ main {
 #agency-cont-center {
   padding: 30px 30px 0px;
   font-size: 0.8em;
-  overflow-y: auto;
+  overflow: auto;
 }
 
 #agency-cont-center img {
@@ -619,8 +617,11 @@ footer strong {
 }
 
 footer ul {
-  padding: 40px 0px;
   width: calc(100% / 5 - 10px);
+}
+
+.ft-top ul {
+  padding: 50px 0px;
 }
 
 footer a {
