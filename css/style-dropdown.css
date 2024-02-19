@@ -1,3 +1,5 @@
+/* nav dropdown */
+
 li a:hover,
 .dropdown:hover .dropbtn {
   background-color: transparent;
@@ -21,7 +23,6 @@ li.dropdown {
   z-index: 2000;
 }
 
-
 .dropdown-content ul {
   float: left;
 }
@@ -39,7 +40,132 @@ li.dropdown {
 }
 
 .dropdown:hover .dropdown-content {
-    display: block;
-  }
+  display: block;
+}
 
+/* dropdown FAQ */
 
+.faq-container {
+  width: 100%;
+  padding: 0px 10px;
+}
+
+.accordion-item {
+  background-color: var(--color-background);
+  padding: 16px;
+  border-top: 1px solid var(--color-background-footer);
+}
+
+#question3 {
+  border-bottom: 1px solid var(--color-background-footer);
+}
+
+.accordion-link {
+  font-size: 0.8em;
+  color: var(--color-background-footer);
+  background-color: var(--color-background);
+  width: 100%;
+  padding: 16px 0;
+}
+
+.accordion-link i {
+  color: var(--color-background-footer);
+  padding: 8px;
+}
+
+.accordion-link .fa-angle-up {
+  display: none;
+}
+
+.answer {
+  max-height: 0;
+  overflow: hidden;
+  position: relative;
+  background-color: var(--color-background);
+  transition: max-height;
+}
+
+.answer::before {
+  content: "";
+  position: absolute;
+  width: 9.6px;
+  height: 90%;
+  background-color: gainsboro;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.answer p {
+  color: var(--color-background-footer);
+  opacity: 0.6;
+  font-size: 0.8em;
+  padding: 32px;
+}
+
+.accordion-item:target .answer {
+  max-height: 3840px;
+}
+
+.accordion-item:target .accordion-link .fa-angle-down {
+  display: none;
+}
+
+.accordion-item:target .accordion-link .fa-angle-up {
+  display: block;
+}
+
+/* dropdown footer */
+
+.dropbtn-foo {
+  background-color: transparent;
+  color: gainsboro;
+  padding: 10px 2px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  font-size: 0.8em;
+}
+
+.dropbtn-foo::after {
+  content: "\25E4";
+  position: absolute;
+  transform: rotate(45deg);
+  left: 75px;
+  top: 12px;
+}
+
+.dropdown-foo {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content-foo {
+  display: none;
+  position: absolute;
+  bottom: 30px;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content-foo a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content-foo a:hover {
+  background-color: gainsboro;
+}
+
+.dropdown-foo:hover .dropdown-content-foo {
+  display: block;
+}
+
+.dropdown-foo:hover .dropbtn-foo {
+  background-color: var(--color-primary);
+}
