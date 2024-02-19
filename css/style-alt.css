@@ -15,7 +15,7 @@ body {
     width: 100%;
     height: 100vh;
     font-size: 1em;
-    background-color: brown;
+    background-color: var(--color-color-background);
     position: relative;
 }
 
@@ -32,13 +32,14 @@ main {
 .left {
     width: 60%;
     border: 1px solid var(--color-color-text);
-    background-color: var(--color-color-background);
+    background-color: transparent;
 }
 
 .right {
     width: 40%;
     border: 1px solid var(--color-color-text);
     background-color: var(--color-color-secondary);
+    padding: 10px;
 }
 
 footer {
@@ -55,5 +56,29 @@ footer {
 
 #main-logo i {
     padding: 10px;
-    /* line-height: 50px; */
+}
+
+.btn-tras {
+    padding: 10px 30px;
+}
+
+.btn-tras:hover {
+    opacity:0.5;
+    background-color: var(--color-color-background);
+}
+
+.a-black {
+    color: var(--color-color-text);
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+}
+
+.grid-item {
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    font-size: 30px;
+    text-align: center;
 }
