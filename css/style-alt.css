@@ -1,5 +1,12 @@
 /* general */
 
+:root {
+	--color-color-background: #ffffff;
+	--color-color-secondary: #f7f5f2;
+	--color-color-text: #1a1918;
+	--color-color-label: #0061fe;
+}
+
 body {
     font-family: "Titillium Web", sans-serif;
 }
@@ -9,10 +16,44 @@ body {
     height: 100vh;
     font-size: 1em;
     background-color: brown;
+    position: relative;
 }
 
 header {
     width: 100%;
+    border: 1px solid var(--color-color-text) ;
+}
+
+main {
+    width: 100%;
+    border: 1px solid var(--color-color-text);
+}
+
+.left {
+    width: 60%;
+    border: 1px solid var(--color-color-text);
+    background-color: var(--color-color-background);
+}
+
+.right {
+    width: 40%;
+    border: 1px solid var(--color-color-text);
+    background-color: var(--color-color-secondary);
+}
+
+footer {
+    width: 100%;
+    border: 1px solid var(--color-color-text);
+}
+
+#main-logo {
+    background-color: var(--color-color-label);
+    width: 50px;
+    height: 50px;
+    aspect-ratio: 1 / 1;
+}
+
+#main-logo i {
     padding: 10px;
-    border: 1px solid ;
+    /* line-height: 50px; */
 }
