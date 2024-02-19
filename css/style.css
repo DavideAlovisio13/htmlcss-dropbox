@@ -40,8 +40,39 @@
   color: var(--color-background);
 }
 
-#plan, #partner, #business, #team, #agency, #bring, #faq, .ft-top {
+#plan,
+#partner,
+#business,
+#team,
+#agency,
+#bring,
+#faq,
+.ft-top {
   padding-top: 100px;
+}
+
+h2 {
+  font-size: 2em;
+  font-weight: 900;
+}
+
+#plan h2 {
+  padding-bottom: 15px;
+  padding-left: 12px;
+}
+
+#team h2 {
+  padding-bottom: 15px;
+}
+
+#business h2 {
+  padding-left: 100px;
+  padding-bottom: 15px;
+}
+
+#bring .left h2 {
+  padding: 0px 100px 100px 10px;
+  color: var(--color-text-buisness);
 }
 
 /* btn general */
@@ -60,7 +91,8 @@
   background-color: var(--color-button);
 }
 
-.btn-blu:hover, #nav-btn-blu:hover {
+.btn-blu:hover,
+#nav-btn-blu:hover {
   opacity: 0.8;
 }
 
@@ -78,7 +110,7 @@
   position: absolute;
   right: 51px;
   top: 35px;
-  padding: 10px 30px; 
+  padding: 10px 30px;
   background-color: var(--color-background);
 }
 
@@ -86,7 +118,7 @@
   text-align: center;
   display: block;
   width: 40%;
-  padding: 10px ;
+  padding: 10px;
   border: 1px solid var(--color-background-footer);
 }
 
@@ -214,12 +246,14 @@ nav img {
 #btn-nav-w {
   background-color: var(--color-background);
 }
+
 #btn-nav-b {
   border-top: 5px solid var(--color-background);
   background-color: var(--color-button);
   margin-bottom: 15px;
   line-height: 0.8;
 }
+
 #btn-nav-b:hover {
   opacity: 0.8;
 }
@@ -351,7 +385,7 @@ main {
   color: #551a8b;
 }
 
-.break-p{
+.break-p {
   display: inline-block;
   padding: 40px 0px 30px;
   border-bottom: 1px solid gainsboro;
@@ -405,35 +439,8 @@ main {
 
 /*  business section*/
 
- #plan h2, #team h2 {
-  font-size: 2em;
-  font-weight: 900;
-  padding-bottom: 15px;
-}
-
-#business h2 {
-  font-size: 2em;
-  font-weight: 900;
-  padding-left: 74px;
-  padding-bottom: 15px;
-}
-
-#faq h2 {
-  padding: 120px 0px 40px;
-  font-size: 2em;
-  font-weight: 900;
-}
-
-#bring .left h2 {
-  padding: 0px 100px 100px 0px;
-  color: var(--color-text-buisness);
-  font-size: 2em;
-  font-weight: 900;
-}
-
-
 .business-card {
-  width: calc(100% / 3 );
+  width: calc(100% / 3);
   min-width: 200px;
   position: relative;
   padding: 10px;
@@ -488,7 +495,7 @@ main {
   width: 100%;
   height: 100%;
   padding: 50px;
-  object-fit:contain;
+  object-fit: contain;
   filter: invert(100%);
   cursor: pointer;
 }
@@ -582,7 +589,7 @@ main {
 
 /* bring section */
 
-#bring{
+#bring {
   width: 100%;
   background-color: var(--color-background-image);
 }
@@ -603,7 +610,6 @@ footer {
   width: 100%;
   background-color: var(--color-background-footer);
   color: var(--color-background);
-
 }
 
 footer strong {
@@ -612,26 +618,22 @@ footer strong {
   padding-bottom: 30px;
 }
 
-footer ul{
+footer ul {
   padding: 40px 0px;
   width: calc(100% / 5 - 10px);
 }
 
-footer a{
+footer a {
   display: inline-block;
   color: var(--color-background);
   font-size: 0.8em;
-  padding: 10px
+  padding: 10px;
 }
 
 footer a:hover {
   text-decoration: underline;
 }
 
-footer i{
+footer i {
   padding-right: 10px;
 }
-
-
-
-
