@@ -79,6 +79,12 @@ footer {
 
 .grid-item {
     border: 1px solid rgba(0, 0, 0, 0.8);
-    font-size: 30px;
     text-align: center;
+    padding: 20px;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
 }
+
+
+
